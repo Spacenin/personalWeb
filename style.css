@@ -1,6 +1,15 @@
+a:link {
+    color:black;
+}
+
+a:hover {
+    color:rgba(255, 255, 255, 0.301);
+}
+
+a:visited {
+    color:black;
+}
+
 body {
-    background-color: coral;
-    font-family: 'Courier New', Courier, monospace;    
-    text-align: center;
-    margin: 0;
+    background-color: cyan;
 }
