@@ -1,17 +1,35 @@
-a:link {
-    color:black;
-}
-
-a:hover {
-    color:rgba(255, 255, 255, 0.301);
-}
-
-a:visited {
-    color:black;
+:root {
+    --link_lighter: rgb(245, 245, 105);
+    --link_darker: rgb(128, 128, 51);
 }
 
 body {
-    background-color: cyan;
+    background-image: linear-gradient(rgb(195, 248, 195), green);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:link {
+    color: black;
+}
+
+a:hover {
+    color: rgba(255, 255, 255, 0.301);
+}
+
+a:visited {
+    color: black;
+}
+
+img.comp_logo {
+    width: 10%;
+}
+
+.links_left {
+    background-image:linear-gradient(to right, var(--link_lighter), var(--link_darker));
+}
+
+.links_right {
+    background-image:linear-gradient(to right, var(--link_darker), var(--link_lighter));
 }
 
 h4.solid {
@@ -20,3 +38,12 @@ h4.solid {
     outline-offset: 7px;
 }
 
+img.pfp {
+    width: 100%;
+    border-style: solid;
+}
+
+img.radio {
+    width: 100%;
+    border-style: solid;
+}
