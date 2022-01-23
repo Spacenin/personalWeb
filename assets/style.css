@@ -13,3 +13,10 @@ a:visited {
 body {
     background-color: cyan;
 }
+
+h4.solid {
+    outline-style: solid;
+    outline-color: black;
+    outline-offset: 7px;
+}
+
