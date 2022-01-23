@@ -65,3 +65,13 @@ p.contact_info {
     border-right: transparent;
     padding-top: 12px;
 }
+
+/*This is just to move the education area to the right*/
+.education {
+    padding-top: 30px;
+    text-align: right;
+}
+
+dt {
+    padding-top: 10px;
+}
