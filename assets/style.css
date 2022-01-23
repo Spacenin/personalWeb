@@ -1,13 +1,16 @@
+/*This is for the link colors and other vars*/
 :root {
     --link_lighter: rgb(245, 245, 105);
     --link_darker: rgb(128, 128, 51);
 }
 
+/*General body stuff*/
 body {
     background-image: linear-gradient(rgb(195, 248, 195), green);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/*Link colors*/
 a:link {
     color: black;
 }
@@ -20,10 +23,12 @@ a:visited {
     color: black;
 }
 
+/*Company logos*/
 img.comp_logo {
     width: 10%;
 }
 
+/*Gradient for links*/
 .links_left {
     background-image:linear-gradient(to right, var(--link_lighter), var(--link_darker));
 }
@@ -32,12 +37,14 @@ img.comp_logo {
     background-image:linear-gradient(to right, var(--link_darker), var(--link_lighter));
 }
 
-h4.solid {
+/*Second top header*/
+h5.solid {
     outline-style: solid;
     outline-color: black;
     outline-offset: 7px;
 }
 
+/*Profile and radio pic, could just combine tbh*/
 img.pfp {
     width: 100%;
     border-style: solid;
@@ -46,4 +53,15 @@ img.pfp {
 img.radio {
     width: 100%;
     border-style: solid;
+}
+
+/*Bottom contact info*/
+p.contact_info {
+    font-size: small;
+    text-align: center;
+    border-style: dashed;
+    border-bottom: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    padding-top: 12px;
 }
