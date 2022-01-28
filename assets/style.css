@@ -32,18 +32,25 @@ img.comp_logo {
 /*Gradient for links*/
 .links_left {
     background-image:linear-gradient(to right, var(--link_lighter), var(--link_darker));
-	flex: 0 0 auto;
-	width: 25%;
-	text-align: center;
-	padding-top: 5px;
 }
 
 .links_right {
     background-image:linear-gradient(to right, var(--link_darker), var(--link_lighter));
-	flex: 0 0 auto;
-	width: 25%;
-	text-align: center;
-	padding-top: 5px;
+}
+
+.row_header {
+	 --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) * -.5);
+    margin-left: calc(var(--bs-gutter-x) * -.5);
+}
+
+p.links_text {
+    margin-bottom: 1rem;
 }
 
 /*Second top header*/
