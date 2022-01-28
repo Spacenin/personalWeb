@@ -32,14 +32,18 @@ img.comp_logo {
 /*Gradient for links*/
 .links_left {
     background-image:linear-gradient(to right, var(--link_lighter), var(--link_darker));
+	flex: 0 0 auto;
+	width: 25%;
+	text-align: center;
+	padding-top: 5px;
 }
 
 .links_right {
     background-image:linear-gradient(to right, var(--link_darker), var(--link_lighter));
-}
-
-.header_links {
-	
+	flex: 0 0 auto;
+	width: 25%;
+	text-align: center;
+	padding-top: 5px;
 }
 
 /*Second top header*/
@@ -104,5 +108,4 @@ ul {
 .textBody {
 	padding-left: 10px;
 	padding-right: 10px;
-}.col-pb-2 {
 }
