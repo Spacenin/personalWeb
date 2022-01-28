@@ -38,21 +38,6 @@ img.comp_logo {
     background-image:linear-gradient(to right, var(--link_darker), var(--link_lighter));
 }
 
-.row_header {
-	 --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: calc(var(--bs-gutter-y) * -1);
-    margin-right: calc(var(--bs-gutter-x) * -.5);
-    margin-left: calc(var(--bs-gutter-x) * -.5);
-}
-
-p.links_text {
-    margin-bottom: 1rem;
-}
-
 /*Second top header*/
 h5.solid {
     outline-style: solid;
