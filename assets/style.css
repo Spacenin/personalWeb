@@ -1,13 +1,14 @@
 /*This is for the link colors and other vars*/
 :root {
-    --link_lighter: #6d6d6e;
+    --link_lighter: rgb(175, 131, 48);
     --link_darker: #3E442B;
 }
 
 /*General body stuff*/
 body {
-    background-image: linear-gradient(#BAA898, #C2847A);
+    background-color: #1D2228;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: #dbbfbf;
 }
 
 /*Link colors*/
@@ -31,11 +32,11 @@ img.comp_logo {
 
 /*Gradient for links*/
 .links_left {
-    background-image:linear-gradient(to right, #6d6d6e, #C2847A);
+    background-image:linear-gradient(to right, burlywood, rgb(175, 131, 48));
 }
 
 .links_right {
-    background-image:linear-gradient(to right, #C2847A, #6d6d6e);
+    background-image:linear-gradient(to right, rgb(175, 131, 48), burlywood);
 }
 
 /*Second top header*/
@@ -65,6 +66,7 @@ p.contact_info {
     border-left: transparent;
     border-right: transparent;
     padding-top: 12px;
+	border-color: black;
 }
 
 /*This is just to move the education area to the right*/
@@ -79,8 +81,9 @@ dt {
 
 /*Class for the top header*/
 .biggest_header {
-    background-color: #6d786e;
+    background-color: #ab8948;
     padding: 5px;
+	color: black;
 }
 
 /*Set unordered list bullet type*/
@@ -95,6 +98,7 @@ ul {
 
 .card-body {
     background-color: burlywood;
+	color: black;
 }
 
 .textBody {
