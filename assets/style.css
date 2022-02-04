@@ -1,7 +1,7 @@
 /*This is for the link colors and other vars*/
 :root {
-    --link_lighter: rgb(175, 131, 48);
-    --link_darker: #3E442B;
+    --link_lighter: burlywood;
+    --link_darker: rgb(175, 131, 48);
 }
 
 /*General body stuff*/
@@ -19,7 +19,7 @@ a:link {
 }
 
 a:hover {
-    color: rgba(255, 255, 255, 0.301);
+    color: rgba(255, 255, 255, 0.5);
 }
 
 a:visited {
@@ -33,11 +33,11 @@ img.comp_logo {
 
 /*Gradient for links*/
 .links_left {
-    background-image:linear-gradient(to right, burlywood, rgb(175, 131, 48));
+    background-image:linear-gradient(to right, var(--link_lighter), var(--link_darker));
 }
 
 .links_right {
-    background-image:linear-gradient(to right, rgb(175, 131, 48), burlywood);
+    background-image:linear-gradient(to right, var(--link_darker), var(--link_lighter));
 }
 
 /*Second top header*/
