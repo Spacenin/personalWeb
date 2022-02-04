@@ -1,12 +1,12 @@
 /*This is for the link colors and other vars*/
 :root {
-    --link_lighter: rgb(245, 245, 105);
-    --link_darker: rgb(128, 128, 51);
+    --link_lighter: #6d6d6e;
+    --link_darker: #3E442B;
 }
 
 /*General body stuff*/
 body {
-    background-image: linear-gradient(rgb(195, 248, 195), green);
+    background-image: linear-gradient(#BAA898, #C2847A);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -31,11 +31,11 @@ img.comp_logo {
 
 /*Gradient for links*/
 .links_left {
-    background-image:linear-gradient(to right, var(--link_lighter), var(--link_darker));
+    background-image:linear-gradient(to right, #6d6d6e, #C2847A);
 }
 
 .links_right {
-    background-image:linear-gradient(to right, var(--link_darker), var(--link_lighter));
+    background-image:linear-gradient(to right, #C2847A, #6d6d6e);
 }
 
 /*Second top header*/
@@ -79,7 +79,7 @@ dt {
 
 /*Class for the top header*/
 .biggest_header {
-    background-color: rgb(128, 128, 51);
+    background-color: #6d786e;
     padding: 5px;
 }
 
