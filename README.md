@@ -1,7 +1,5 @@
-# spacenin.github.io
+# Personal Website
 Personal webpage to bring together my useful links and portfolio of projects. 
-
-Currently in progress....
 
 --Credits--  
 [Favicon Icon](https://www.flaticon.com/free-icon/cpu_1383401?term=cpu%20tower&page=1&position=28&page=1&position=28&related_id=1383401&origin=search)  
